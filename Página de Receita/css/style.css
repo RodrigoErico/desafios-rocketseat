@@ -9,17 +9,32 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.recipe-container {
+    background: white;
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
 h1 {
   font-size: 1.75rem;
+  text-align: center;
 }
 
 h2 {
   font-size: 1.25rem;
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
 }
 
 li,
 p {
   font-size: 1rem;
+  line-height: 1.62rem;
 }
 
 footer,
