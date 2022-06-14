@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
  }
+
+ body {
+  background: #eaeaea;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+li,
+p {
+  font-size: 1rem;
+}
+
+footer,
+figcaption {
+  font-size: .75rem;
+}
