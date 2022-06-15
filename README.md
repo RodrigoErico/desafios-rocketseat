@@ -4,7 +4,8 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-## Desafio Piloto: Página de Receita 
+<h2> Desafio Piloto: Página de Receita </h3>
+
 [Página de Receita](https://rodrigoerico.github.io/desafios-rocketseat/pagina-de-receita/index.html)
 - Tecnologias utilizadas:
 - HTML5 e CSS3
