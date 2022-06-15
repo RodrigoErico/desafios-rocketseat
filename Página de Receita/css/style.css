@@ -5,16 +5,17 @@
  }
 
  body {
-  background: #eaeaea;
+  background: #382e2e;
   font-family: 'Roboto', sans-serif;
 }
 
 h1 {
   font-size: 1.75rem;
   text-align: center;
+  margin-bottom: 10px;
 }
 .recipe-container {
-  background: white;
+  background: #ffffff;
   width: 70%;
   margin: 40px auto;
   padding: 30px;
@@ -34,23 +35,40 @@ h1 {
   border-radius: 10px;
   margin-bottom: 5px;
 }
+a {
+  text-decoration: none;
+  color: #0daaf3;
+}
 
 h2 {
   font-size: 1.25rem;
-  text-align: center;
+  text-align: left;
+  margin-bottom: 8px;
+  padding: 10px;
 }
 
 ul {
   list-style-position: inside;
 }
 
-li,
-p {
+li{
   font-size: 1rem;
-  line-height: 1.62rem;
+  line-height: 2rem;
 }
 
-footer,
+p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+footer {
+  text-align: center;
+  margin: 20px;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
 figcaption {
+  color:  #382e2e;
   font-size: .75rem;
 }
