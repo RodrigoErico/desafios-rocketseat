@@ -11,3 +11,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  width: 100%;
+  background-color: var(--background);
+  color: var(--text-base);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--form-background);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-title);
+}
+
