@@ -14,39 +14,43 @@
 </head>
 
 <body>
-  <img src="./img/logo.png" alt="logo">
+
+
   <div class="container">
-    <div class="header">
-      <h1>Faça seu login</h1>
-      <span>Entre com suas informações de cadastro.</span>
+    <div>
+      <img src="./img/logo.png" alt="logo">
     </div>
+    <div class="container-form">
+      <div class="header">
+        <h1>Faça seu login</h1>
+        <h2>Entre com suas informações de cadastro.</h2>
+      </div>
+      <form class="form">
+        <fieldset>
+            <label class="label-email"><span class="required">Email</span>
+              <input type="email" name="email" placeholder="Digite seu e-email" tabindex="1" required />
+            </label>
 
-    <form id="form" class="form">
-      <fieldset>
-        <div class="form-control">
-          <label for="email">Email</label>
-          <input id="email" type="email" name="email" placeholder="Digite seu e-email">
+          <label class="label-password"><span class="required">Senha</span>
+            <input type="password" name="password" placeholder="Digite sua senha" tabindex="2" required />
+          </label>
 
-        </div>
+          <input type="checkbox" name="subscribe" id="subscribe">
+          <label for="subscribe">Lembre-me</label>
 
-        <div class="form-control">
-          <label for="password">Senha</label>
-          <input type="password" name="password" id="password" placeholder="Digite sua senha">
+          <span class="change-password"><a href="#">Esqueci minha senha</a></span>
 
-        </div>
+          <button class="button" type="submit">Entrar</button>
 
-        <input type="checkbox" name="subscribe" id="subscribe">
-        <label for="subscribe">Lembre-me</label>
+          <span class="register"><a href="#">Não tem uma conta? Registre-se</a></span>
+        </fieldset>
+      </form>
 
-        <span>Esqueci minha senha</span>
-
-        <button type="submit">Entrar</button>
-
-        <span>Não tem uma conta? Registre-se</span>
-      </fieldset>
-    </form>
+    </div>
   </div>
-  <img src="./img/side-image.png" alt="">
+  <div class="container-img"><img src="./img/side-image.png" class="img-car"
+      alt="Carro grande com uma barraca em cima, em frente a um lago">
+  </div>
 </body>
 
 </html>
