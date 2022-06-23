@@ -7,48 +7,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Fomulário de login</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Formulário Camp</title>
 </head>
 
 <body>
-  <div class="container">
-    <div>
-      <img src="./img/logo.png" alt="logo">
-    </div>
-    <div class="container-form">
-      <div class="header">
-        <h1>Faça seu login</h1>
-        <h2>Entre com suas informações de cadastro.</h2>
+
+  <main>
+
+    <section>
+      <div class="icon">
+        <img src="logo.png" alt="" width="115px" height="28px">
       </div>
-      <form class="form">
-        <fieldset>
-          <label class="label-email"><span class="required">Email</span>
-            <input type="email" name="email" placeholder="Digite seu e-email" tabindex="1" required />
-          </label>
 
-          <label class="label-password"><span class="required">Senha</span>
-            <input type="password" name="password" placeholder="Digite sua senha" tabindex="2" required />
-          </label>
+      <div class="container-form">
 
-          <input type="checkbox" name="subscribe" id="subscribe">
-          <label for="subscribe">Lembre-me</label>
+        <form class="form">
+          <div class="header">
 
-          <span class="change-password"><a href="#">Esqueci minha senha</a></span>
+            <div class="logo-in">
+              <img src="log-in.png"  width="24px" height="24px" alt="Seta para direita">
+              <h1>Faça seu login</h1>
+            </div>
 
-          <button class="button" type="submit">Entrar</button>
+          </div>
+          <h2>Entre com suas informações de cadastro.</h2>
+          <fieldset>
+            <label class="label-email"><span class="required">E-mail</span>
+                <input type="email" maxlength="30" name="email" placeholder="Digite seu e-mail" tabindex="1" required />
+            </label>
 
-          <span class="register"><a href="#">Não tem uma conta? Registre-se</a></span>
-        </fieldset>
-      </form>
+            <label class="label-password"><span class="required">Senha</span>
+              <input type="password" maxlength="16" name="password" placeholder="Digite sua senha" tabindex="2" required />
+            </label>
 
-    </div>
-  </div>
-  <div class="container-img"><img src="./img/side-image.png" class="img-car"
-      alt="Carro grande com uma barraca em cima, em frente a um lago">
-  </div>
+            <div class="container-checkbox">
+              <input class="input-checkbox"type="checkbox" name="subscribe" id="subscribe" placeholder="{background-color:#000}">
+            <label class="remember"for="subscribe">Lembre-me</label>
+            <span class="change-password"><a href="#">Esqueci minha senha</a></span>
+            </div>
+
+            
+
+            <button class="button" type="submit">Entrar</button>
+
+            <span class="register"><a href="#">Não tem uma conta? Registre-se</a></span>
+          </fieldset>
+        </form>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="container-img"><img src="./side-image.png" class="img-car"
+          alt="Carro grande com uma barraca em cima, em frente a um lago">
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
