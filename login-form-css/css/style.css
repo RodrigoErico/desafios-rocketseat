@@ -28,3 +28,18 @@ main {
 .icon {
   margin: 40px 565px 126px 40px;
 }
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+  justify-content: flex-start;
+  width: 572px;
+  height: 512px;
+  margin: 0 74px 194px 74px;
+  padding: 55px;
+  background-color: var(--form-background);
+  border-radius: 4px;
+
+}
