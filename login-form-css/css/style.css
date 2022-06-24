@@ -15,22 +15,12 @@
 body {
   background-color: var(--background);
 }
-.container-form {
-  background-color: var(--form-background);
-}
-.header h1{
-  color: var(--text-title);
-}
 
-.header h2 {
+main {
+  max-height: 900px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
   color: var(--text-base);
-}
-
-label{
-  color: var(--text-base);
-}
-
-a {
-  color: var(--primary-color);
-  text-decoration: none;
 }
