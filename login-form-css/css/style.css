@@ -41,5 +41,15 @@ main {
   padding: 55px;
   background-color: var(--form-background);
   border-radius: 4px;
+}
 
+.form {
+  width: 335px;
+	height: 400px;
+}
+
+.logo-in {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
