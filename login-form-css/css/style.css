@@ -24,3 +24,7 @@ main {
   justify-content: flex-end;
   color: var(--text-base);
 }
+
+.icon {
+  margin: 40px 565px 126px 40px;
+}
