@@ -99,6 +99,27 @@ h2 {
   margin: 27px 0 20px;
 }
 
+.container-checkbox input {
+  display: none;
+}
+
+.container-checkbox input + label:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid var(--text-base);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.container-checkbox input:checked + label:before {
+  background-image: url("../img/check.png");
+  background-color: var(--primary-color);
+}
 .container-checkbox label{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -113,6 +134,7 @@ h2 {
   text-decoration: none;
   color: var(--primary-color);
 }
+
 .button {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
