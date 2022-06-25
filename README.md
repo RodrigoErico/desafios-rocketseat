@@ -6,7 +6,17 @@
 
 <h3>  
   
-  [Página de Receita](https://rodrigoerico.github.io/desafios-rocketseat/pagina-de-receita/index.html)  
+  [Desafio "Página de Receita"](https://rodrigoerico.github.io/desafios-rocketseat/pagina-de-receita/index.html)  
+  
+</h3>
+
+- Tecnologias utilizadas:
+- HTML5 e CSS3
+<hr>
+
+<h3>  
+  
+  [Desafio "Login Form CSS"](https://rodrigoerico.github.io/desafios-rocketseat/login-form-css/index.html)  
   
 </h3>
 
