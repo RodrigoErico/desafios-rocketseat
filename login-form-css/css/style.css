@@ -48,10 +48,10 @@ main {
 	height: 400px;
 }
 
-.logo-in {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.logo-in img{
+  margin-right: 10px;
+  margin-top: 5px;
+  float: left;
 }
 
 fieldset {
@@ -63,7 +63,7 @@ h1 {
   font-weight: 600;
   color: var(--text-title);
   font-size: 24px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   margin-left: 10px;
 }
 
