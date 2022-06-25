@@ -74,6 +74,17 @@ fieldset {
   border: none;
 }
 
+input {
+  color: var(--text-base);
+  outline: none;
+  padding: 0 22px;
+}
+input:focus {
+  color: var(--text-base);
+  border: 2px solid var(--primary-color);
+  padding: 0 22px;
+}
+
 .label-email,
 .label-password {
   font-family: 'Poppins', sans-serif;
