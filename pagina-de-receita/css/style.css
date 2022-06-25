@@ -7,6 +7,7 @@
  body {
   background: #382e2e;
   font-family: 'Roboto', sans-serif;
+  min-width: 500px;
 }
 
 h1 {
@@ -42,7 +43,8 @@ a {
 
 h2 {
   font-size: 1.25rem;
-  text-align: left;
+  text-align: center;
+  text-transform: uppercase;
   margin-bottom: 8px;
   padding: 10px;
 }
@@ -53,9 +55,12 @@ ul {
 
 li{
   font-size: 1rem;
-  line-height: 2rem;
+  line-height: 2.5rem;
 }
 
+ol {
+  margin-left: 16px;
+}
 p {
   font-size: 1rem;
   line-height: 1.3rem;
