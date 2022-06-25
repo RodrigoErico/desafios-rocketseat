@@ -17,10 +17,11 @@ body {
 }
 
 main {
+  min-width: 1440px;
   max-height: 900px;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: flex-end;
   color: var(--text-base);
 }
@@ -54,10 +55,6 @@ main {
   float: left;
 }
 
-fieldset {
-  border: none;
-}
-
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -71,6 +68,10 @@ h2 {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+}
+
+fieldset {
+  border: none;
 }
 
 .label-email,
@@ -97,6 +98,26 @@ h2 {
   display: flex;
   flex-direction: column;
   margin: 27px 0 20px;
+}
+
+.icon-email {
+  background: url(../img/mail.png) no-repeat left ;
+  padding: 20px;
+  background-color: none;
+  border: 1px solid#fff;
+  border-radius: 4px;
+}
+
+.icon-email::placeholder,
+.icon-password::placeholder {
+  padding: 5px;
+}
+.icon-password {
+  background: url(../img/lock.png) no-repeat left;
+  padding: 20px;
+  background-color: none;
+  border: 1px solid#fff;
+  border-radius: 4px;
 }
 
 .container-checkbox input {
