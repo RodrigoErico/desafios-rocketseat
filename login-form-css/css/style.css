@@ -114,6 +114,7 @@ h2 {
   vertical-align: middle;
   margin-right: 5px;
   margin-bottom: 3px;
+  cursor: pointer;
 }
 
 .container-checkbox input:checked + label:before {
