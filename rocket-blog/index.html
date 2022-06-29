@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,33 +9,40 @@
   <link rel="stylesheet" href="./css/header.css">
   <title>RocketBlog</title>
 </head>
+
 <body>
+  <div class="container">
+    <header class="header">
 
-  <header class="header-container">
-    <h1>The Blog</h1>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Sobre</li>
-        <li>Categorias</li>
-        <li>Contato</li>
-      </ul>
-    </nav>
-    <input type="text">
+      <a href="#" class="header__logo"><img src="./img/logo.png" alt=""></a>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a> </li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Categorias</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+      <label for=""><input type="text" placeholder="Buscar"><img src="./img/search.png" alt=""></label>
+    </header>
 
-    <h2>Veja o guia definitivo para conquistar seus objetivos como DEV em 2022</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde ex mollitia soluta tenetur voluptatem, facere
-      quia voluptatum eligendi nulla nostrum ducimus fugiat inventore praesentium odit quasi consectetur sit possimus?
-    </p>
-    <p>Veja mais</p>
+    <section>
+      <h2>Veja o guia definitivo para conquistar seus objetivos como DEV em 2022</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde ex mollitia soluta tenetur voluptatem,
+        facere
+        quia voluptatum eligendi nulla nostrum ducimus fugiat inventore praesentium odit quasi consectetur sit possimus?
+      </p>
+      <p>Veja mais</p>
 
-    <img src="./img/featured-image.png" alt="">
-    <hr>
-  </header>
+      <img src="./img/featured-image.png" alt="" width="570px" height="346px">
+    </section>
+  </div>
   
   <main>
 
-    <section>
+
+
+    <article>
       <div class="card">
         <div class="card__news">
 
@@ -45,45 +53,63 @@
             volutpat aenean sit vitae, sed tristique nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean
             sit vitae, sed tristique. Sed volutpat aenean.</p>
         </div>
-        <div class="card__news--no-image">
-          <p>Junho 28, 2022</p>
-          <h4>Conheça as principais técnicas para conseguir uma vaga internacional em programação</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed
-            volutpat aenean sit vitae, sed tristique.</p>
-        </div>
-        <hr>
-        <div class="card__news--no-image">
-          <p>Junho 28, 2022</p>
-          <h4>Veja a evolução do Front-end na prática</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. </p>
-        </div>
-        <div class="card__news">
-          <img src="./img/post-2.png" alt="">
-          <p>Junho 28, 2022</p>
-          <h4>10 dicas para conseguir a vaga desejada</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed
-            volutpat aenean sit vitae, sed tristique.
-          </p>
-        </div>
-        <div class="card__news">
-          <img src="./img/post-3.png" alt="">
-          <p>Junho 28, 2022</p>
-          <h4>Deixe seu código mais semântico com essas dicas</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed
-            volutpat aenean sit vitae, sed tristique.</p>
-        </div>
-        <div class="card__news">
-          <img src="./img/post-4.png" alt="">
-          <p>Junho 28, 2022</p>
-          <h4>Use essas dicas nas suas aplicações mobile</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed
-            volutpat aenean sit vitae, sed tristique.</p>
-        </div>
+    </article>
+
+    <article>
+      <div class="card__news--no-image">
+        <p>Junho 28, 2022</p>
+        <h4>Conheça as principais técnicas para conseguir uma vaga internacional em programação</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed
+          volutpat aenean sit vitae, sed tristique.</p>
       </div>
-    </section>
+    </article>
+
+    <hr>
+    <article>
+      <div class="card__news--no-image">
+        <p>Junho 28, 2022</p>
+        <h4>Veja a evolução do Front-end na prática</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. </p>
+      </div>
+    </article>
+
+    <article>
+      <div class="card__news">
+        <img src="./img/post-2.png" alt="">
+        <p>Junho 28, 2022</p>
+        <h4>10 dicas para conseguir a vaga desejada</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed
+          volutpat aenean sit vitae, sed tristique.
+        </p>
+      </div>
+    </article>
+
+    <article>
+      <div class="card__news">
+        <img src="./img/post-3.png" alt="">
+        <p>Junho 28, 2022</p>
+        <h4>Deixe seu código mais semântico com essas dicas</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed
+          volutpat aenean sit vitae, sed tristique.</p>
+      </div>
+    </article>
+
+    <article>
+      <div class="card__news">
+        <img src="./img/post-4.png" alt="">
+        <p>Junho 28, 2022</p>
+        <h4>Use essas dicas nas suas aplicações mobile</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed
+          volutpat aenean sit vitae, sed tristique.</p>
+      </div>
+    </article>
+
+    </div>
 
   </main>
 
   <footer>Criado por Rodrigo</footer>
+
 </body>
+
 </html>
