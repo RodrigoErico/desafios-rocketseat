@@ -17,3 +17,7 @@
   --font-poppins:
   --font-roboto:
 }
+
+header {
+  background-color: var(--purple-bg);
+}
