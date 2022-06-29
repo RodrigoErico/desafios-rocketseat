@@ -31,3 +31,8 @@ header {
   z-index: 1000;
   transition: all .35s ease;
 }
+
+.navbar{
+	display: flex;
+	align-items: center;
+}
