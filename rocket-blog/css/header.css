@@ -16,6 +16,9 @@
   --green: #4fff4b;
   --font-poppins:
   --font-roboto:
+  --h1-font: 2.25rem;
+  --h2-font: 1.5rem;
+  --p-font: 1.125rem;
 }
 
 header {
