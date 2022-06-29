@@ -44,8 +44,8 @@ header {
   color: var(--white);
 }
 .navbar a:hover{
-	color: var(--green);
+	border-left: 2px solid var(--green);
 }
 .navbar a.active{
-	color: var(--green);
+	border-left: 2px solid var(--green);
 }
