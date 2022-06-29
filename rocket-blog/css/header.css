@@ -36,3 +36,13 @@ header {
 	display: flex;
 	align-items: center;
 }
+
+.navbar a {
+  color: var(--white);
+}
+.navbar a:hover{
+	color: var(--green);
+}
+.navbar a.active{
+	color: var(--green);
+}
