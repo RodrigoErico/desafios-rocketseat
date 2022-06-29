@@ -5,17 +5,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/color-and-font.css">
   <link rel="stylesheet" href="./css/header.css">
   <title>RocketBlog</title>
 </head>
 
 <body>
-  <div class="container">
-    <header class="header">
 
-      <a href="#" class="header__logo"><img src="./img/logo.png" width="160px" alt=""></a>
-      <nav>
+  	<!---header--->
+    <header>
+      <a href="#" class="logo">
+        <img src="./img/logo.png" width="160px" alt="">
+      </a>
+      
+      <nav class="navbar">
         <ul>
           <li><a href="#">Home</a> </li>
           <li><a href="#">Sobre</a></li>
@@ -23,19 +25,34 @@
           <li><a href="#">Contato</a></li>
         </ul>
       </nav>
-      <label for=""><input type="text" placeholder="Buscar"><img src="./img/search.png" alt=""></label>
+
+      <div class="search">
+        <label>
+          <input type="text" placeholder="Buscar">
+          <img src="./img/search.png" alt="">
+        </label>
+      </div>
+      
     </header>
 
     <section class="main-content">
+
+      <div class="main-content__text">
       <h2>Veja o guia definitivo para conquistar seus objetivos como DEV em 2022</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde ex mollitia soluta tenetur voluptatem,
         facere
         quia voluptatum eligendi nulla nostrum ducimus fugiat inventore praesentium odit quasi consectetur sit possimus?
       </p>
-      <p>Veja mais</p>
+      <div class="view-more">
+        <p>Veja mais</p>
+        <img src="./img/arrow-right.png" alt="">
+      </div>
+
+    </div>
 
       <img src="./img/featured-image.png" alt="" width="570px" height="346px">
     </section>
+
   </div>
 
   <main>
