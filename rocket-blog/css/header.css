@@ -35,6 +35,12 @@ header {
   transition: all .35s ease;
 }
 
+.logo img{
+	max-width: 100%;
+	width: 161px;
+	height: auto;
+}
+
 .navbar{
 	display: flex;
 	align-items: center;
@@ -43,6 +49,7 @@ header {
 .navbar a {
   color: var(--white);
 }
+
 .navbar a:hover{
 	border-left: 2px solid var(--green);
 }
