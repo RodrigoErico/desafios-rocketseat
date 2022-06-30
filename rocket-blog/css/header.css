@@ -100,3 +100,14 @@ header {
 .container-input__wrap .container-input__search_box .btn:hover{
 	background: #708bd2;	
 }
+
+.home {
+  height: 90vh;
+  width: 100%;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+	gap: 3rem;
+  background-color: var(--purple-bg);
+}
