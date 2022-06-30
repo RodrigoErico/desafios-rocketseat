@@ -14,8 +14,8 @@
   --white: #fff;
   --light-purple: #fbf6ff;
   --green: #4fff4b;
-  --font-poppins:
-  --font-roboto:
+  --font-poppins: 'Poppins', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
   --h1-font: 2.25rem;
   --h2-font: 1.5rem;
   --p-font: 1.125rem;
@@ -41,17 +41,21 @@ header {
 	height: auto;
 }
 
-.navbar{
+.navbar ul{
 	display: flex;
 	align-items: center;
 }
 
 .navbar a {
+  font-family: var(--font-roboto);
+  font-size: var(--p-font);
   color: var(--white);
+  padding: 0 32px 0 2px;
 }
 
 .navbar a:hover{
 	border-left: 2px solid var(--green);
+  font-weight: 700;
 }
 .navbar a.active{
 	border-left: 2px solid var(--green);
