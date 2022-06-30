@@ -113,7 +113,7 @@ header {
 }
 
 .home__text {
-  padding: 0 136px;
+  padding: 0 135px;
 }
 
 .home__text h1 {
@@ -122,4 +122,12 @@ header {
   font-weight: 700;
 	line-height: 54px;
   color: var(--button-bg);
+}
+
+.home__text p {
+	font-size: var(--p-font);
+  font-family: var(--font-roboto);
+  font-weight: 400;
+	line-height: 27px;
+  color: var(--light-purple);
 }
